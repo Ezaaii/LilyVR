@@ -85,7 +85,7 @@
 	}
 
 	html, body {
-		background-color: #101010;
+		background-color: #211821;
 		overflow: hidden;
 	}
 
@@ -136,7 +136,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: ##7A072F;
+			color: #7A072F;
 		}
 
 	strong, b {
