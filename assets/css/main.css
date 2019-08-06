@@ -17,7 +17,9 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
-
+  section div .divider {
+		width: 300px;
+	}
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -136,7 +138,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #7A072F;
+			color: #d4779b;
 		}
 
 	strong, b {
@@ -398,7 +400,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #00D3B7;
+			border-color: #d4779b;
 		}
 
 	.select-wrapper {
@@ -509,7 +511,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #00D3B7;
+			border-color: #d4779b;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -723,7 +725,7 @@
 		outline: 0;
 		overflow-x: hidden;
 		overflow-y: auto;
-		text-align: right;
+		text-align: center;
 		visibility: visible;
 		z-index: 10000;
 		right: 0;
@@ -811,7 +813,7 @@
 /* Header */
 
 	#header {
-		padding: 3em 2.25em 1.75em 2.25em ;
+		/*padding: 3em 2.25em 1.75em 2.25em ;*/
 	}
 
 		#header h1 {
@@ -852,7 +854,7 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 0 0.75em;
+		padding: 0 0em;
 	}
 
 		#thumbnails article {
@@ -890,7 +892,7 @@
 					top: 0;
 					width: 100%;
 					height: 100%;
-					box-shadow: inset 0 0 0 2px #00D3B7, inset 0 0 0px 3px rgba(0, 0, 0, 0.15);
+					box-shadow: inset 0 0 0 4px #d4779b, inset 0 0 0px 3px rgba(0, 0, 0, 0.15);
 					opacity: 0;
 					z-index: 1;
 				}
@@ -1084,9 +1086,9 @@
 		}
 
 			#viewer .slide .caption {
-				background-image: -moz-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
-				background-image: -webkit-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
-				background-image: -ms-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
+				background-image: -moz-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 100%, rgba(16,16,16,0));
+				background-image: -webkit-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 100%, rgba(16,16,16,0));
+				background-image: -ms-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 100%, rgba(16,16,16,0));
 				background-image: linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
 				padding: 2em 2em 0.75em 2em ;
 				position: absolute;
